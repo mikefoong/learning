@@ -1,0 +1,290 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Sandbox</title>
+    <link rel="stylesheet" href="Foundation-Sites/css/icon/foundation-icons.css">
+    <link rel="stylesheet" href="Foundation-Sites/css/foundation.css">
+    <link rel="stylesheet" href="Foundation-Sites/css/app.css">
+  </head>
+<body>
+    <!--Typography-->
+    <div class="row">
+        <h1>heading <small>Secondary text</small></h1>
+        <h2 class="subheader">heading <small>Secondary text</small></h2>
+        <!--paragraphing-->
+        <p class="lead">Neque porro <em>quisquam est qui dolorem ipsum quia dolor sit amet</em>, consectetur, adipisci velit..."
+            "<strong> there is no one who loves pain itself</strong>, <a href="/index.html">who seeks after it and wants to have it, simply because it is pain..."</a> </p>
+
+        <p>Neque porro <em>quisquam est qui dolorem ipsum quia dolor sit amet</em>, consectetur, adipisci velit..."
+                    "<strong> there is no one who loves pain itself</strong>, <a href="/index.html">>who seeks after it and wants to have it, simply because it is pain..."</p>
+
+        <p>Server up-Time</p>
+        <div class="stat">230</div>
+        <hr>
+        <!--alignment classes-->
+        <p class="text-left"> left aligned text</p>
+        <p class="text-center"> center aligned text</p>
+        <p class="text-right"> Right aligned text</p>
+        <p class="text-justify"> Justified text</p>
+
+        <!--Float Classes-->
+        <div class="callout clearfix">
+        <a class="button float-left">Left</a>
+        <a class="button float-right"> Right</a>
+      </div>
+
+      <hr>
+
+      <!--code-->
+
+      <code>&lt;div class="myClass"&gt;Hello World&lt;/div&gt></code>
+      <p>Press <kbd>Cmd+r</kbd> (or <kbd>Ctrl+r</kbd>on Windows)</p>
+
+      <hr>
+      <blockquote>
+        this is a blockquote from foundation again
+        <cite>john doe</cite>
+      </blockquote>
+    </div>
+
+    <!--list-->
+<div>
+  <ul >
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+    <ul class="no-bullet">
+      <li>Nested item</li>
+      <li>Nested item</li>
+      <li>Nested item</li>
+    </ul>
+    <li>item four</li>
+  </ul>
+
+  <ol>
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+    <ul>
+      <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+    </ul>
+    <li>item four</li>
+  </ol>
+
+  <!--Visibility-->
+  <p class="hide">HIDDEN</p>
+  <p class="invisible">INVISIBLE</p>
+  <p >1.You are a small screen or larger</p>
+  <p class="show-for-medium">2.you are a medium screen or larger</p>
+  <p class="show-for-large">3.you are on a large screen or larger</p>
+  <p class="hide-for-small-only">4. you are not a small screen</p>
+  <p class="hide-for-medium-only">5. you are not a medium screen</p>
+  <p class="hide-for-large-only">6. you are not a large screen</p>
+  <p class="show-for-landscape">7. you are in landscape</p>
+  <p class="show-for-portrait">8.you are in potrait</p>
+</div>
+
+<hr>
+<div class="row">
+  <!--buttons-->
+  <button class="button">live button</button>
+  <a href="#" class="button">button link</a>
+  <input type="button" value="Input" class="button">
+
+  <!--coloured buttons-->
+  <button class="success button">success button</button>
+  <button class="alert button">alert button</button>
+  <button class="warning button">warning button</button>
+  <button class="secondary button">secondary button</button>
+  <button class="button disabled">live button</button>
+
+  <br>
+  <!--sizes-->
+  <button class="button tiny">tiny button</button>
+  <button class="button small">small button</button>
+  <button class="button"> button</button>
+  <button class="button large">large button</button>
+  <button class="button expanded">expanded button</button>
+  <button class="button expanded large">expanded large button</button>
+  <button class="button">live button</button>
+
+  <!--hollow-->
+  <button class="button tiny hollow">hollow button</button>
+  <button class="button small hollow">small hollow button</button>
+  <button class="button hollow">live button</button>
+  <button class="button large hollow">large hollow button</button>
+  <button class="button expanded hollow">expanded hollow button</button>
+  <button class="button expanded large hollow">expanded large button</button>
+  <button class="button"> button</button>
+  <br>
+   <!--coloured buttons-->
+   <button class="success button hollow"> hollow success button</button>
+   <button class="alert button hollow">hollow alert button</button>
+   <button class="warning button hollow">hollow warning button</button>
+   <button class="secondary button">hollow secondary button</button>
+   <button class="button disabled">hollow live button</button>
+
+  <div class="row">
+    <!--forms-->
+    <form action="#">
+      
+      <div>
+        <label for="#">Name</label>
+        <input type="text" class="text" placeholder="name">
+      </div>
+      
+      <div>
+        <label for=""> Email</label>
+        <input type="text" class="email" placeholder="Email">
+      </div>
+      
+      <div>
+        <label for="">Numbers</label>
+        <input type="number">
+      </div>
+      
+      <div>
+        <label for="">Message</label>
+        <textarea placeholder="text"></textarea>
+      </div>
+
+      <div>
+        <label for="">Gender</label>
+        <select>
+          <option value="">Male</option>
+          <option value="">Female</option>
+          <option value="">other</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Gender</label>
+        <select multiple>
+          <option value="">Male</option>
+          <option value="">Female</option>
+          <option value="">other</option>
+        </select>
+      </div>
+
+
+      <div>
+        <fieldset class="fieldset">
+          <legend>A Fieldset</legend>
+          <input type="checkbox"><label for="">Checkbox 1</label>
+          <input type="checkbox"><label for="">Checkbox 2</label>
+          <input type="checkbox"><label for="">Checkbox 3</label>
+        </fieldset>
+        <div>
+          <label for="fileUpload" class="button hollow"><label>Upload File</label>
+          <input type="file" id="fileUpload" class="show-for-sr">
+        </div>
+        <div>
+        <label >Password</label>
+        <input type="password">
+        <p class="help-text">your password is per rules</p>
+        </div>
+        <div class="input-group">
+        <span class="input-group-label">@</span>
+          <input class="input-group-field" type="email">
+        <div class="input-group-button">
+          <input type="submit" class="button" value="Submit">
+        </div>
+          </div>
+          <div class="switch">
+            <input class="switch-input" id="mySwitch" type="checkbox" name="exampleSwitch">
+            <label class="switch-paddle" for="mySwitch">
+              <span class="show-for-sr">Enabled</span>
+            </label>
+          </div>
+
+          <div class="slider" data-slider data-initial-start='0' data-end='20'>
+            <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+            <span class="slider-fill" data-slider-fill></span>
+            <input type="hidden">
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- tables -->
+          <table class="striped hover stack">
+            <tr>
+              <th>firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>24</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="row">
+          <!--MENU-->
+          <ul class="menu">
+            <li class="menu-text">menu title</li>
+            <li><a href="#"> link 1</a>
+              <li class="active"><a href="#"> link 2</a></li>
+              <li><a href="#"> link 3</a></li>
+              <li><a href="#"> link 4</a>
+          </ul>
+          <ul class="menu vertical">
+            <li class="menu-text">menu title</li>
+            <li><a href="#"> link 1</a>
+              <li class="active"><a href="#"> link 2</a></li>
+              <li><a href="#"> link 3</a></li>
+              <li><a href="#"> link 4</a>
+          </ul>
+          <ul class="menu simple">
+            <li class="menu-text">menu title</li>
+            <li><a href="#"> link 1</a>
+              <li class="active"><a href="#"> link 2</a></li>
+              <li><a href="#"> link 3</a></li>
+              <li><a href="#"> link 4</a>
+
+                <ul class="menu">
+                  <li><a href="#"><i class="fi-list"></i> <span>link 1</span></a>
+                    <li class="active"><a href="#"><i class="fi-list"></i><span>link 2</span></a></li>
+                    <li><a href="#"><i class="fi-list"></i><span>link 3</span></a></li>
+                    <li><a href="#"> link 4</a>
+        </div>
+
+
+
+
+
+    </form>
+  </div>
+
+
+</div>
+
+    
+
+    <script src="Foundation-Sites/js/vendor/jquery.js"></script>
+    <script src="Foundation-Sites/js/vendor/what-input.js"></script>
+    <script src="Foundation-Sites/js/vendor/foundation.js"></script>
+    <script src="Foundation-Sites/js/app.js"></script>
+</body>
+</html>
